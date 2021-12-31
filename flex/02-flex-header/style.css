@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .logo {
@@ -13,10 +14,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-
-  margin: 10px;
-  align-items: center;
-  justify-content: center;
 }
 
 ul { 
@@ -24,9 +21,9 @@ ul {
   list-style-type: none;
 
   display: flex;
-  justify-content: center;
   padding: 0;
-  margin: 10px;
+  margin: 0;
+  gap: 10px;
 }
 
 a {
@@ -35,6 +32,4 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-
-  margin: 10px;
 }
