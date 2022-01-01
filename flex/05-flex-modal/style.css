@@ -22,10 +22,9 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: space-between;
   padding: 10px;
+  gap: 10px;
 }
 
 .icon {
@@ -41,7 +40,6 @@ body {
   justify-content: center;
 
   flex-shrink: 0;
-  margin-right: 10px;
 }
 
 .close-button {
@@ -63,7 +61,7 @@ button {
   padding: 8px 16px;
   border-radius: 8px;
 
-  margin: 10px 0px;
+  margin-top: 10px;
 }
 
 button.continue {
